@@ -1,0 +1,290 @@
+.fiveh1An{
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+
+    animation: fiveh1key .5s linear;
+
+     /* Safari */
+     -webkit-animation: fiveh1key .5s linear;
+     /* Firefox */
+     -moz-animation: fiveh1key .5s linear;
+      /* IE 9 */
+     -ms-zoom-animation: fiveh1key .5s linear;
+     /* Opera */
+     -o-animation: fiveh1key .5s linear;
+}
+@keyframes fiveh1key {
+    0%{
+        opacity: 0;
+        transform: translateX(100px) scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+@-webkit-keyframes fiveh1key {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(100px) scale(0);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0) scale(1);
+    }
+}
+
+.fiveh2An{
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+
+    animation: fiveh2key .5s linear;
+
+    /* Safari */
+    -webkit-animation: fiveh2key .5s linear;
+    /* Firefox */
+    -moz-animation: fiveh2key .5s linear;
+     /* IE 9 */
+    -ms-zoom-animation: fiveh2key .5s linear;
+    /* Opera */
+    -o-animation: fiveh2key .5s linear;
+}
+@keyframes fiveh2key {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px) scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+@-webkit-keyframes fiveh2key {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(-100px) scale(0);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0) scale(1);
+    }
+}
+
+.fiveimg1An{
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+
+    animation: fiveimg1key .5s linear;
+
+    /* Safari */
+    -webkit-animation: fiveimg1key .5s linear;
+    /* Firefox */
+    -moz-animation: fiveimg1key .5s linear;
+     /* IE 9 */
+    -ms-zoom-animation: fiveimg1key .5s linear;
+    /* Opera */
+    -o-animation: fiveimg1key .5s linear;
+}
+@keyframes fiveimg1key {
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@-webkit-keyframes fiveimg1key {
+    0%{
+        opacity: 0;
+        -webkit-transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+}
+.fiveimg4An{
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+
+    animation: fiveimg4key .5s linear;
+    /* Safari */
+    -webkit-animation: fiveimg4key .5s linear;
+    /* Firefox */
+    -moz-animation: fiveimg4key .5s linear;
+     /* IE 9 */
+    -ms-zoom-animation: fiveimg4key .5s linear;
+    /* Opera */
+    -o-animation: fiveimg4key .5s linear;
+
+}
+@keyframes fiveimg4key {
+    0%{
+        opacity: 0;
+        transform: translateX(100px) scale(0.7);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0) scale(0.7);
+    }
+}
+@-webkit-keyframes fiveimg4key {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(100px) scale(0.7);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0) scale(0.7);
+    }
+}
+
+.fiveimg2An{
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+
+
+    animation: fiveimg2key .5s linear;
+
+    /* Safari */
+    -webkit-animation: fiveimg2key .5s linear;
+    /* Firefox */
+    -moz-animation: fiveimg2key .5s linear;
+     /* IE 9 */
+    -ms-zoom-animation: fiveimg2key .5s linear;
+    /* Opera */
+    -o-animation: fiveimg2key .5s linear;
+}
+@keyframes fiveimg2key {
+    0%{
+        opacity: 0;
+        transform: translateX(80%) scale(0.7);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0) scale(0.7);
+    }
+}
+@-webkit-keyframes fiveimg2key {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(80%) scale(0.7);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0) scale(0.7);
+    }
+}
+
+.fiveimg3An{
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+
+    animation: fiveimg3key .5s linear;
+
+     /* Safari */
+     -webkit-animation: fiveimg3key .5s linear;
+     /* Firefox */
+     -moz-animation: fiveimg3key .5s linear;
+      /* IE 9 */
+     -ms-zoom-animation: fiveimg3key .5s linear;
+     /* Opera */
+     -o-animation: fiveimg3key .5s linear;
+}
+@keyframes fiveimg3key {
+    0%{
+        opacity: 0;
+        transform: translateX(-80%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@-webkit-keyframes fiveimg3key {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-80%);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+
+.fivegifAn{
+    animation: fivegifkey .5s linear;
+
+     /* Safari */
+     -webkit-animation: fivegifkey .5s linear;
+     /* Firefox */
+     -moz-animation: fivegifkey .5s linear;
+      /* IE 9 */
+     -ms-zoom-animation: fivegifkey .5s linear;
+     /* Opera */
+     -o-animation: fivegifkey .5s linear;
+}
+@keyframes fivegifkey {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fivegifkey {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/* 轮播图 */
+.fivedivAn{
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+
+    transform-origin: left center;
+    -webkit-transform-origin: left center;
+    animation: fivedivkey .5s linear;
+
+     /* Safari */
+     -webkit-animation: fivedivkey .5s linear;
+     /* Firefox */
+     -moz-animation: fivedivkey .5s linear;
+      /* IE 9 */
+     -ms-zoom-animation: fivedivkey .5s linear;
+     /* Opera */
+     -o-animation: fivedivkey .5s linear;
+}
+@keyframes fivedivkey {
+    0%{
+        opacity: 0;
+        transform: rotateX(90deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+@-webkit-keyframes fivedivkey {
+    0%{
+        opacity: 0;
+        -webkit-transform: rotateX(90deg);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: rotateX(90deg);
+    }
+}
