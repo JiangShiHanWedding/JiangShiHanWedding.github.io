@@ -91,6 +91,15 @@ $(document).ready(function(){
         //得到弹幕管道值
         var bufferArr = [];
 
+         //模拟数据
+        var userinfo = [
+            {"uname":"WANG","telephone":"12345678901","blessing":"相爱年年岁岁，相知岁岁年年","time":"2021-11-09"},
+            {"uname":"WANG","telephone":"12345678901","blessing":"恩爱甜蜜，美满常驻，幸福萦绕","time":"2021-10-09"},
+            {"uname":"WANG","telephone":"13445678901","blessing":"真心祝愿君新婚快乐","time":"2021-10-09"},
+            {"uname":"WANG","telephone":"12345678901","blessing":"祝福你们，从平凡的温馨到白首的不离，数着快乐静看子孙满堂","time":"2021-10-09"},
+            {"uname":"","telephone":"","blessing":"","time":""}
+        ];
+        
         //后台请求弹幕
         $.ajax({
             type:"post",
@@ -103,12 +112,18 @@ $(document).ready(function(){
                     bufferArr = meg.data.userinfo;
                     // console.log("后台获取数据 ",bufferArr);
                 }else{
-                    bufferArr=getBufferfromfile();
+                    var len = userinfo.length;
+                    for(var i=0;i<len-1;i++){
+                        bufferArr[i]=userinfo[i];
+                    }
                 }
             },
             error:function(meg){
                 console.log(meg.statusText);
-                bufferArr=getBufferfromfile();
+                var len = userinfo.length;
+                 for(var i=0;i<len-1;i++){
+                       bufferArr[i]=userinfo[i];
+                  }
             }
         });
 
