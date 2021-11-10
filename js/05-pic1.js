@@ -130,7 +130,7 @@ $(document).ready(function(){
 
     function move(){
     
-           alert(curIndex); 
+           //alert(curIndex); 
            curIndex ++;
            if(curIndex>totalIndex){
                //播放第二张
