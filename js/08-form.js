@@ -13,7 +13,7 @@ $(document).ready(function(){
     var form = $(".formdiv:eq(0)");
     var pic = $("#singlegif");
 
-    if($(window).height()<610){
+    if($(window).height()<670){
         $("#eightform").css("padding-top","0%");
         $("#eightform").css("height","60%");
         $("#eightform>input").each(function(index){
@@ -140,7 +140,7 @@ $(document).ready(function(){
         userInfo.telephone = tel;
         userInfo.blessing = word;
 
-        if(word=""){
+        if(word=""||word.length==0){
             alert("请输入祝福语");
         }else{
             var content = JSON.stringify(userInfo);
