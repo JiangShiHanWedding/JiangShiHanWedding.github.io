@@ -126,7 +126,7 @@
         for(var i=0;i<len-1;i++){
             bufferArr[i]=userinfo[i];
         }
-        alert(bufferArr);
+        //alert(bufferArr);
         return bufferArr;
     }
 
