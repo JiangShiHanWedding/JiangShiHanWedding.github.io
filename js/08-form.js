@@ -13,7 +13,7 @@ $(document).ready(function(){
     var form = $(".formdiv:eq(0)");
     var pic = $("#singlegif");
 
-    if($(window).height()<670){
+    if($(window).height()<670 && $(window).width()>600){
         $("#eightform").css("padding-top","0%");
         $("#eightform").css("height","60%");
         $("#eightform>input").each(function(index){
