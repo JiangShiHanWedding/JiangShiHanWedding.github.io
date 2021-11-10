@@ -103,14 +103,14 @@ $(document).ready(function(){
         //后台请求弹幕
         $.ajax({
             type:"post",
-            url:"http://www/getjson",
+            url:"https://www/getjson",
             data: "",
             async:false,
             success:function(meg){
                 //console.log(meg);
                 if(meg.success){
                     bufferArr = meg.data.userinfo;
-                    // console.log("后台获取数据 ",bufferArr);
+                    console.log("后台获取数据 ",bufferArr);
                 }else{
                     var len = userinfo.length;
                     for(var i=0;i<len-1;i++){
@@ -125,13 +125,11 @@ $(document).ready(function(){
                  for(var i=0;i<len-1;i++){
                        bufferArr[i]=userinfo[i];
                   }
-                 console.log("ajax中数据");
-                console.log(bufferArr);
+                 console.log("ajax中数据",bufferArr);
             }
         });
 
-        console.log("获取数据");
-        console.log(bufferArr);
+        console.log("获取数据",bufferArr);
         var len = bufferArr.length;
 
         var buffer=new Array(num);
