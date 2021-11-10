@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@import url(keyframes.css);
+
+.nine{
+    font-family: mading;
+}
+.nine h1{
+    font-size:4em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.nine .danmu{
+    height: 60%;
+    overflow: hidden;
+    background: url(images/back.png) no-repeat center center;
+    background-size: cover;
+
+    position: relative;
+}
+.nine h2{
+    /* font-family: hole; */
+    font-size:2em;
+    margin-top: 1%;
+}
+.nine h3{
+    font-size: 2em;
+    margin-top: 1%;
+}
+
+.danmu .barragediv{
+    border: 1px solid rgba(233, 191, 120);
+    border-radius: 3%;
+
+    background: #8e594f;
+    color: #fff;
+
+    box-shadow: 0px 0px 10px #1f1011;
+
+    font-family: thingold;
+    font-size: 1.5em;
+    text-align: left;
+     /*确保内容在一行显示，不然移动到最后会折行*/
+    white-space: nowrap;  
+
+    position: absolute;
+    top:0;
+    height: 11%;
+
+    padding: 1% 4% 1% 1%;
+}
+.danmu .barragediv h5{
+    margin-bottom: 3%;
+}
+.danmu .barragediv i{
+    margin-right: 3%;
+}
+/* .danmu .barragediv span{
+   
+    margin-left: 1%;
+} */
+@media screen and (max-device-width:320px){
+    
+    .nine h1 {
+        font-size: 2em;
+    }
+    .nine h2 {
+        font-size: 1em;
+    }
+    .nine h3 {
+        font-size: 1em;
+    }
+    .nine .danmu {
+        height: 75%;
+    }
+    .danmu .barragediv{
+        font-size: .4em;
+        height: 6%;
+    }
+}
+@media screen and (max-device-width:539px)  and (min-device-width:321px) {
+    
+    .nine h1 {
+        font-size: 2em;
+    }
+    .nine h2 {
+        font-size: 1em;
+    }
+    .nine h3 {
+        font-size: 1em;
+    }
+    .nine .danmu {
+        height: 75%;
+    }
+    .danmu .barragediv{
+        font-size: .5em;
+        height: 6%;
+    }
+}
+@media screen and (max-device-width:540px) and (min-device-width:540px){
+    
+    .nine h1 {
+        font-size: 2em;
+    }
+    .nine h2 {
+        font-size: 1em;
+    }
+    .nine h3 {
+        font-size: 1em;
+    }
+    .nine .danmu {
+        height: 70%;
+    }
+    .danmu .barragediv{
+        
+        font-size: .5em;
+        height: 6%;
+    }
+}
+@media screen and (max-device-width:768px) and (min-device-width:768px) {
+    .nine .danmu {
+        height: 70%;
+    }
+    .danmu .barragediv{
+       
+        height: 7%;
+    }
+}
+@media screen and (max-device-width:1024px) and (min-device-width:1024px) {
+    .nine .danmu {
+        height: 75%;
+    }
+    .danmu .barragediv{
+        height: 6%;
+    }
+
+}
