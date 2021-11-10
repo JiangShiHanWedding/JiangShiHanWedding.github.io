@@ -36,7 +36,7 @@
 
     box-shadow: 0px 0px 10px #1f1011;
 
-    font-family: thingold;
+/*     font-family: thingold; */
     font-size: 1.5em;
     text-align: left;
      /*确保内容在一行显示，不然移动到最后会折行*/
@@ -48,9 +48,9 @@
 
     padding: 1% 4% 1% 1%;
 }
-.danmu .barragediv h5{
+/* .danmu .barragediv h5{
     margin-bottom: 3%;
-}
+} */
 .danmu .barragediv i{
     margin-right: 3%;
 }
