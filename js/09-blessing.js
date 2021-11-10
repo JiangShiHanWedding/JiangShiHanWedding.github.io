@@ -152,14 +152,11 @@ $(document).ready(function(){
                     divstr+="<i class=\"far fa-user-circle\"></i><span>"+uname+ " - "+blessing+"</span></div>";
                 }
         
-                //添加keyframes到html
-                $("<style>").attr("type","text/css").html(keyframes).appendTo($("head"));
-                
-                //添加元素
+               //添加元素
                 danmu.append(divstr);
                 
                 var ele = $("#danmu"+i+"-"+j);
-                if($(window).height()<610){
+                if($(window).height()<670){
                     ele.css("height","12%");
                 }
 
@@ -177,6 +174,12 @@ $(document).ready(function(){
                 //拼写动画帧函数，记得每个ani要进行区分，宽度从自己的负宽度移动一整个屏幕的距离    
                 var keyframes = "@keyframes danmu"+i+"-"+j+"key{"+
                 "0%{right:"+-rightNum+"px}"+"100%{right:"+wid+"px}}";
+                var webkitkeyframes = "@-webkit-keyframes danmu"+i+"-"+j+"key{"+
+                "0%{right:"+-rightNum+"px}"+"100%{right:"+wid+"px}}";
+
+                 //添加keyframes到html
+                 $("<style>").attr("type","text/css").html(keyframes).appendTo($("head"));
+                 $("<style>").attr("type","text/css").html(webkitkeyframes).appendTo($("head"));
                 
                 // console.log("弹幕块元素 "+divstr);
                 // console.log("弹幕动画函数 "+keyframes);
@@ -198,6 +201,10 @@ $(document).ready(function(){
                 // console.log(anima);
 
                 ele.css("animation",anima);
+                ele.css("-webkit-animation",anima);
+                ele.css("-moz-animation",anima);
+                ele.css(" -ms-zoom-animation",anima);
+                ele.css("-o-animation",anima);
 
                 if(blessing==null|| blessing==""){
                     ele.remove();
