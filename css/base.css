@@ -1,0 +1,29 @@
+@import url(reset.css);
+@import url(font.css);
+@import url(page/background/background.css);
+@import url(page/01-index/one.css);
+@import url(page/02-invite/two.css);
+@import url(page/03-groom/three.css);
+@import url(page/04-bride/four.css);
+@import url(page/05-pic1/five.css);
+@import url(page/06-pic2/six.css);
+@import url(page/07-map/seven.css);
+@import url(page/08-form/eight.css);
+@import url(page/09-blessing/nine.css);
+@import url(page/10-problem/ten.css);
+
+body{
+    background: url(page/background/images/back/back.jpg) center center;
+    background-color: rgba(103, 42, 49);
+    background-size: cover;
+    position: relative; 
+    color: rgb(219, 193, 168); 
+
+    box-sizing: border-box;
+    overflow: hidden; 
+
+    /* font-family: thingold; */
+    
+    /* min-width:300px; */
+}
+
