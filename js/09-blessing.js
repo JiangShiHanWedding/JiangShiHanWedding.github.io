@@ -103,7 +103,7 @@ $(document).ready(function(){
         //后台请求弹幕
         $.ajax({
             type:"post",
-            url:"http://localhost:9990/getjson",
+            url:"http://www/getjson",
             data: "",
             async:false,
             success:function(meg){
@@ -119,7 +119,7 @@ $(document).ready(function(){
                 }
             },
             error:function(meg){
-                console.log(meg.statusText);
+                console.log(“ajax连接错误:” + meg.statusText);
                 var len = userinfo.length;
                  for(var i=0;i<len-1;i++){
                        bufferArr[i]=userinfo[i];
