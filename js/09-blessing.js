@@ -174,7 +174,7 @@ $(document).ready(function(){
                 danmu.append(divstr);
                 
                 var ele = $("#danmu"+i+"-"+j);
-                if($(window).height()<670){
+                if($(window).height()<670&&$(window).width()>600){
                     ele.css("height","12%");
                 }
 
