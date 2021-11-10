@@ -101,17 +101,17 @@
     //     buffer[i]=new Array();
     // }
     var bufferArr =new Array();
-    var json={};
-    //得到json数据
-    function getJson(data){
-        json = data.userinfo;
-        // console.log(json.length);
-        var len = json.length;
-        for(var i=0;i<len-1;i++){
-            bufferArr[i]=json[i];
-        }
+//     var json={};
+//     //得到json数据
+//     function getJson(data){
+//         json = data.userinfo;
+//         // console.log(json.length);
+//         var len = json.length;
+//         for(var i=0;i<len-1;i++){
+//             bufferArr[i]=json[i];
+//         }
 
-    }
+//     }
     
     //传递管道值
     function getBufferfromfile(){
