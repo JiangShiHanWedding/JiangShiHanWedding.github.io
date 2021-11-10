@@ -119,7 +119,8 @@ $(document).ready(function(){
                 }
             },
             error:function(meg){
-                console.log(“ajax连接错误:” + meg.statusText);
+                console.log("ajax错误");
+                console.log(meg.statusText);
                 var len = userinfo.length;
                  for(var i=0;i<len-1;i++){
                        bufferArr[i]=userinfo[i];
