@@ -1,0 +1,282 @@
+.twoh1animation{
+    animation: h1key 0.5s linear;
+    /* Safari */
+    -webkit-animation: h1key .5s linear;
+    /* Firefox */
+    -moz-animation: h1key .5s linear;
+     /* IE 9 */
+    -ms-zoom-animation: h1key .5s linear;
+    /* Opera */
+    -o-animation: h1key .5s linear;
+
+    animation-fill-mode: both;
+}
+@keyframes h1key {
+    0%{
+        opacity: 0;
+        transform: translateY(-1000px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@-webkit-keyframes h1key {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(-1000px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+.twoh3animation{
+    animation-fill-mode: both;
+    animation: h3key .5s linear;
+
+    /* Safari */
+    -webkit-animation: h3key .5s linear;
+    /* Firefox */
+    -moz-animation: h3key .5s linear;
+     /* IE 9 */
+    -ms-zoom-animation: h3key .5s linear;
+    /* Opera */
+    -o-animation: h3key .5s linear;
+}
+@keyframes h3key {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@-webkit-keyframes h3key {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+
+
+.twopic1animation{
+    animation-fill-mode: both;
+
+    animation: pic1key .5s linear;
+
+    /* Safari */
+    -webkit-animation: pic1key .5s linear;
+    /* Firefox */
+    -moz-animation: pic1key .5s linear;
+     /* IE 9 */
+    -ms-zoom-animation: pic1key .5s linear;
+    /* Opera */
+    -o-animation: pic1key .5s linear;
+}
+@keyframes pic1key {
+    0%{
+        opacity: 0;
+        /* transform: scale(0.35) translateY(-80%) translateX(100%); */
+        transform: translateX(25%);
+    }
+    100%{
+        opacity: 1;
+        /* transform: scale(0.35) translateY(-80%) translateX(125%); */
+        transform: translateX(50%);
+    }
+}
+@-webkit-keyframes pic1key {
+    0%{
+        opacity: 0;
+        /* transform: scale(0.35) translateY(-80%) translateX(100%); */
+        -webkit-transform: translateX(25%);
+    }
+    100%{
+        opacity: 1;
+        /* transform: scale(0.35) translateY(-80%) translateX(125%); */
+        -webkit-transform: translateX(50%);
+    }
+}
+
+
+.twopic2animation{
+    animation-fill-mode: both;
+
+    animation: pic2key .5s linear;
+    /* Safari */
+    -webkit-animation: pic2key .5s linear;
+    /* Firefox */
+    -moz-animation: pic2key .5s linear;
+     /* IE 9 */
+    -ms-zoom-animation: pic2key .5s linear;
+    /* Opera */
+    -o-animation: pic2key .5s linear;
+}
+@keyframes pic2key {
+    0%{
+        opacity: 0;
+        /* transform: scale(0.3) translateY(-110%) translateX(-100%); */
+        transform: translateX(35%);
+    }
+    100%{
+        opacity: 1;
+        /* transform: scale(0.3) translateY(-110%) translateX(-125%); */
+        transform: translateX(10%);
+    }
+}
+@-webkit-keyframes pic2key {
+    0%{
+        opacity: 0;
+        /* transform: scale(0.3) translateY(-110%) translateX(-100%); */
+        -webkit-transform: translateX(35%);
+    }
+    100%{
+        opacity: 1;
+        /* transform: scale(0.3) translateY(-110%) translateX(-125%); */
+        -webkit-transform: translateX(10%);
+    }
+}
+
+.twowordAn{
+    animation-fill-mode: both;
+    animation: wordkey .5s linear;
+
+    /* Safari */
+    -webkit-animation: wordkey .5s linear;
+    /* Firefox */
+    -moz-animation: wordkey .5s linear;
+     /* IE 9 */
+    -ms-zoom-animation: wordkey .5s linear;
+    /* Opera */
+    -o-animation: wordkey .5s linear;
+}
+@keyframes wordkey {
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    100%{
+        opacity: scale(1);
+    }
+}
+@-webkit-keyframes wordkey {
+    0%{
+        opacity: 0;
+        -webkit-transform: scale(0);
+    }
+    100%{
+        opacity: scale(1);
+        -webkit-transform: scale(1);
+    }
+}
+
+.twouserfAn{
+    animation-fill-mode: both;
+    animation: userfkey .5s linear infinite alternate;
+
+    /* Safari */
+    -webkit-animation: userfkey .5s linear infinite alternate;
+    /* Firefox */
+    -moz-animation: userfkey .5s linear infinite alternate;
+     /* IE 9 */
+    -ms-zoom-animation: userfkey .5s linear infinite alternate;
+    /* Opera */
+    -o-animation: userfkey .5s linear infinite alternate;
+}
+
+@keyframes userfkey {
+    0%{
+        opacity: 1;
+        transform: translateX(25%) rotate(30deg);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(25%) rotate(0deg);
+    }
+}
+@-webkit-keyframes userfkey {
+    0%{
+        opacity: 1;
+        -webkit-transform: translateX(25%) rotate(30deg);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(25%) rotate(0deg);
+    }
+}
+
+.twousermAn{
+    animation-fill-mode: both;
+    animation: usermkey 1s linear infinite alternate;
+
+    /* Safari */
+    -webkit-animation: usermkey 1s linear infinite alternate;
+    /* Firefox */
+    -moz-animation: usermkey 1s linear infinite alternate;
+     /* IE 9 */
+    -ms-zoom-animation: usermkey 1s linear infinite alternate;
+    /* Opera */
+    -o-animation: usermkey 1s linear infinite alternate;
+}
+@keyframes usermkey {
+    0%{
+        opacity: 1;
+        transform: translateX(-25%) rotate(-30deg);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(-25%) rotate(0deg);
+    }
+}
+@-webkit-keyframes usermkey {
+    0%{
+        opacity: 1;
+        -webkit-transform: translateX(-25%) rotate(-30deg);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(-25%) rotate(0deg);
+    }
+}
+
+.twoh5animation{
+    animation-fill-mode: both;
+    animation: h5key .5s linear;
+
+    /* Safari */
+    -webkit-animation: h5key .5s linear;
+    /* Firefox */
+    -moz-animation: h5key .5s linear;
+     /* IE 9 */
+    -ms-zoom-animation: h5key .5s linear;
+    /* Opera */
+    -o-animation: h5key .5s linear;
+}
+@keyframes h5key {
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@-webkit-keyframes h5key {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
