@@ -127,7 +127,8 @@ $(document).ready(function(){
             }
         });
 
-        // console.log("数据 "+bufferArr);
+        console.log("获取数据");
+        console.log(bufferArr);
         var len = bufferArr.length;
 
         var buffer=new Array(num);
@@ -145,6 +146,7 @@ $(document).ready(function(){
             buffer[index].push(bufferArr[i]);
         }
         buffer[num-1].push(bufferArr[len-1]);
+        console.log(buffer);
 
         var previousEle=new Array(num);
 
