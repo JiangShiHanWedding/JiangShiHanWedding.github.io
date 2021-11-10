@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: thingold;
-    src: url(font/汉仪瘦金书简.ttf);
+    src: url(font/thingold.ttf);
 }
 @font-face {
     font-family: water;
@@ -26,18 +26,18 @@
 
 @font-face {
     font-family: rain;
-    src: url(font/白雨.ttf);
+    src: url(font/rain.ttf);
 }
 @font-face {
     font-family: rice;
-    src: url(font/米芾字体.ttf);
+    src: url(font/rice.ttf);
 }
 @font-face {
     font-family: robot;
-    src: url(font/简罗卜.ttf);
+    src: url(font/robot.ttf);
 }
 
 @font-face {
     font-family: mading;
-    src: url(font/百变马丁.ttf);
+    src: url(font/mading.ttf);
 }
