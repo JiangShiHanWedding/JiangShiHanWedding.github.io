@@ -124,6 +124,8 @@ $(document).ready(function(){
                  for(var i=0;i<len-1;i++){
                        bufferArr[i]=userinfo[i];
                   }
+                 console.log("ajax中数据");
+                console.log(bufferArr);
             }
         });
 
