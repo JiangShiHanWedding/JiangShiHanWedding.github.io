@@ -90,7 +90,7 @@
     100%{
         opacity: 1;
         /* transform: scale(0.35) translateY(-80%) translateX(125%); */
-        transform: translateX(50%);
+        transform: translateX(49%);
     }
 }
 @-webkit-keyframes pic1key {
@@ -102,7 +102,7 @@
     100%{
         opacity: 1;
         /* transform: scale(0.35) translateY(-80%) translateX(125%); */
-        -webkit-transform: translateX(50%);
+        -webkit-transform: translateX(49%);
     }
 }
 
@@ -129,7 +129,7 @@
     100%{
         opacity: 1;
         /* transform: scale(0.3) translateY(-110%) translateX(-125%); */
-        transform: translateX(10%);
+        transform: translateX(11%);
     }
 }
 @-webkit-keyframes pic2key {
@@ -141,7 +141,7 @@
     100%{
         opacity: 1;
         /* transform: scale(0.3) translateY(-110%) translateX(-125%); */
-        -webkit-transform: translateX(10%);
+        -webkit-transform: translateX(11%);
     }
 }
 
