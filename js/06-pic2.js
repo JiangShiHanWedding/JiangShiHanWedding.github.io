@@ -61,6 +61,7 @@ $(document).ready(function(){
 
                 sixheart.css("opacity","0");
                 sixheart.removeClass("sixheartAn");
+                sixheart.removeClass("sixheartinf");
 
                 linkup.css("opacity","0");
                 linkup.removeClass("linkupanimation");
