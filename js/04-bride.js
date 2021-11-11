@@ -10,7 +10,7 @@ $(document).ready(function(){
     var img1 = $("#bridepic1");
     var img2 = $("#bridepic2");
 
-    if($(window).height()<610){
+    if($(window).height()<670&& $(window).width()>600){
         img2.css("margin-top","0%");
         $(".bridepic:eq(0)").css("height","50%");
     }
