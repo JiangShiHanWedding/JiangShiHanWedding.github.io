@@ -106,7 +106,7 @@
 @media screen and (max-device-width:539px) {
     .groomword h1{
         width: 20%;
-        font-size:3em;
+        font-size: 3em;
     }
     #wordnew {
         margin-left: 27%;
@@ -115,7 +115,7 @@
         font-size: 1.5em;
     }
     .three .groomword{
-        height: 12%;
+        height: 13%;
     }
     .three h4{
         font-size:1em;
@@ -123,7 +123,7 @@
     }
 
     .three .groompic{
-        height: 68%;
+        height: 70%;
         margin-left: 6%;
     }
 
