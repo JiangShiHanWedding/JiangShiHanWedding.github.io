@@ -19,7 +19,7 @@ $(document).ready(function(){
 
     var navele = $("#nav");
     
-    if($(window).height()<610){
+    if($(window).height()<670&& $(window).width()>700){
         female.css("font-size","2em");
         male.css("font-size","2em");
         pic1.css("margin-top","0%");
