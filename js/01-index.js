@@ -16,7 +16,7 @@ $(document).ready(function(){
   
     var navele = $("#nav");
 
-    if($(window).height()<610){
+    if($(window).height()<670&& $(window).width()>600){
         h1.css("margin-top","0%");
         h2.css("font-size","4em");
         h3.css("font-size","4em");
