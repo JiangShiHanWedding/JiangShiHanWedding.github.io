@@ -16,7 +16,7 @@ $(document).ready(function(){
     var img5 = $("#sixThreeimg5");
 
     var imgdiv = $(".sixThreeimg:eq(0)");
-    if($(window).height()<610){
+    if($(window).height()<670&& $(window).width()>600){
         imgdiv.css("height","60%");
         imgdiv.css("padding-top","0%");
     }
