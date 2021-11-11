@@ -69,9 +69,9 @@ $(document).ready(function(){
                 linkdown.removeClass("linkdownanimation");
 
                 break;
-            case "siximg2An":
-                sixheart.addClass("sixheartAn");
-                break;
+            //case "siximg2An":
+                //sixheart.addClass("sixheartAn");
+                //break;
         }
     });
     // 监听动画结束
@@ -88,6 +88,7 @@ $(document).ready(function(){
 
                 //h2.addClass("sixh2An");
                 spanword.addClass("sixspaninf");
+                h2.addClass("sixh2An");
 
                 // 每个字动画实现动画效果
                 //spanword.css("opacity","1");
@@ -141,10 +142,11 @@ $(document).ready(function(){
 
                 sixheart.addClass("sixheartinf");
 
-                h2.addClass("sixh2An");
+                
                 break;  
             case "sixh2An":
                 h2.css("opacity","1");
+                sixheart.addClass("sixheartAn");
                 break;
             
         }
