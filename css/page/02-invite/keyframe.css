@@ -180,16 +180,16 @@
 
 .twouserfAn{
     animation-fill-mode: both;
-    animation: userfkey .5s linear infinite alternate;
+    animation: userfkey 1s linear infinite alternate;
 
     /* Safari */
-    -webkit-animation: userfkey .5s linear infinite alternate;
+    -webkit-animation: userfkey 1s linear infinite alternate;
     /* Firefox */
-    -moz-animation: userfkey .5s linear infinite alternate;
+    -moz-animation: userfkey 1s linear infinite alternate;
      /* IE 9 */
-    -ms-zoom-animation: userfkey .5s linear infinite alternate;
+    -ms-zoom-animation: userfkey 1s linear infinite alternate;
     /* Opera */
-    -o-animation: userfkey .5s linear infinite alternate;
+    -o-animation: userfkey 1s linear infinite alternate;
 }
 
 @keyframes userfkey {
