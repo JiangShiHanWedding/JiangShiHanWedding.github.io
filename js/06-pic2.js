@@ -69,7 +69,8 @@ $(document).ready(function(){
                 linkdown.removeClass("linkdownanimation");
 
                 break;
-            case "h1animation":
+            case "siximg2An":
+                sixheart.addClass("sixheartAn");
                 break;
         }
     });
@@ -124,7 +125,7 @@ $(document).ready(function(){
                 break;
             case "siximg3An":
                 img3.css("opacity","1");
-                sixheart.addClass("sixheartAn");
+                // sixheart.addClass("sixheartAn");
                 break;  
             case "siximg4An":
                 img4.css("opacity","1");
