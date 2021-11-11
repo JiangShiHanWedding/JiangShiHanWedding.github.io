@@ -13,7 +13,7 @@ $(document).ready(function(){
     var mapele = $("#sevenmap");
     var pic = $("#sevenpic1");
 
-    if($(window).height()<610){
+    if($(window).height()<670&& $(window).width()>600){
         mapele.css("margin-top","-22%");
     }
 
