@@ -11,7 +11,7 @@ $(document).ready(function(){
     var img1 = $("#groompic1");
     var img2 = $("#groompic2");
 
-    if($(window).height()<610){
+    if($(window).height()<670&& $(window).width()>600){
         img1.css("margin-top","0%");
         $(".groompic:eq(0)").css("height","50%");
     }
