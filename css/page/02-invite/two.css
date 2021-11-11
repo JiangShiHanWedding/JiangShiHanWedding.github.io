@@ -64,14 +64,14 @@
 
 #imgbride{
    /* margin-left: 26%;*/
-   margin-top: 4%;
+/*    margin-top: 4%; */
    /* transform: scale(0.35) translateY(-80%) translateX(125%); */
-   transform: translateX(50%);
+   transform: translateX(49%);
 }
 #imgroom{
     /* margin-left: -12%; */
     /* transform: scale(0.3) translateY(-110%) translateX(-125%); */
-    transform: translateX(10%);
+    transform: translateX(11%);
  }
 
  /* 选中样式 */
@@ -81,22 +81,22 @@
 
 @media screen and (max-device-width:540px){
     #imgbride{
-        margin-top: 35%;
+        margin-top: 5%;
      
      }
      
      #imgroom{
         /* transform: scale(1.2) translateX(-10%) translateY(15%); */
-        margin-top: 17%;
+        margin-top: 5%;
       }
       .two h3{
           font-size: 1em;
       }
       .twoword{
-          height: 10%;
+          height: 15%;
       }
       .twoword span{
-          font-size: 1.5em;
+          font-size: 1em;
       }
       .two h5{
         font-size: 0.8em;
@@ -109,7 +109,7 @@
           margin-top:5%;
       }
       .two .weddingpic {
-          height: 60%;
+          height: 65%;
       }
 }
 
@@ -129,10 +129,10 @@
         height: 70%;
         margin: 2% 0;
     }
-    #imgbride{
+/*     #imgbride{
         margin-top: 20%;
      
-     }
+     } */
     .two h3{
         font-size: 2em;
      }
