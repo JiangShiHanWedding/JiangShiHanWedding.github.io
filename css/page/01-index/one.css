@@ -184,11 +184,14 @@
         font-size: 3.5em;
         margin-top: 12%;
     }  
-    .one h3{
-        margin-top: 12%;
+   .one h3{
+        /* margin-top: 12%; */
+        font-size: 2em;
+        margin-top: 0%;
     } 
     .one h4 {
         margin-bottom: 12%;
+        font-size: 1.5em;
     }
     .dateinfo .yearinfo h1{
         font-size: 2.5em;
