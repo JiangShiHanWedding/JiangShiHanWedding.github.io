@@ -136,7 +136,7 @@ $(document).ready(function(){
                 var heg = $(window).height();
                 // console.log(wid+" "+heg+" ");
                 // console.log(heg==812&&wid==375);
-                if(heg==812&&wid==375){
+                if(heg>660&&wid<500){
                     gifimg.css("opacity","1");
                     gifimg.css("display","block");
                     gifimg.addClass("onegif");
