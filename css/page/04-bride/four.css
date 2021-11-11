@@ -116,7 +116,7 @@
 @media screen and (max-device-width:539px) {
     .brideword h1{
         width: 20%;
-        font-size:2em;
+        font-size: 3em;
     }
     #bwordnew {
         margin-left: 27%;
@@ -125,7 +125,7 @@
         font-size: 1.4em;
     }
     .four .brideword{
-        height: 12%;
+        height: 13%;
     }
     .four h4{
         font-size:1em;
@@ -144,7 +144,7 @@
         margin-top: 10%;
     }
     #bridepic2{
-        margin-top: 5%;
+        margin-top: 10%;
     }
 }
 @media screen and (max-device-width:540px) and (min-device-width:540px){
