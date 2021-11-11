@@ -10,7 +10,7 @@ $(document).ready(function(){
     var textarea = content.children("textarea");
     var alink = $("#tensubmit");
 
-    if($(window).height()<610){
+    if($(window).height()<670&& $(window).width()>600){
         h1.css("margin-top","0%");
         h1.css("font-size","3em");
         spanele.css("font-size","1.5em");
