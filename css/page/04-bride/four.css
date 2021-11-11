@@ -185,8 +185,14 @@
     }
 }
 @media only screen and (max-device-width:768px) and (min-device-width:768px){
-    #bridepic2 {
-        margin-top: 40%;
+    #wordbride {
+        margin-left: 12%;
+    }
+    #bwordnew {
+        margin-left: 25%;
+    }
+    .brideword h1 {
+        width: 20%;
     }
     
 }
