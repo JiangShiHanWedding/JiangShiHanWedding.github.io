@@ -144,8 +144,8 @@
 }
 .onegif{
     position: fixed;
-    bottom:5%;
-    left:30%;
+    bottom: 7%;
+    left: 27%;
 }
 @media screen and (max-device-width: 320px){
     .one h1 {
@@ -168,8 +168,14 @@
     .dateinfo .timeinfo h1{
         font-size: 1em;
     } 
+    .dateinfo .addressinfo h3{
+        font-size: 1em;
+    }  
     .dateinfo .addressinfo h1{
         font-size: 1em;
+    }  
+    .dateinfo .addressinfo h3{
+        font-size: .8em;
     }  
     .one h5{
         font-size: .8em;
@@ -194,13 +200,19 @@
         font-size: 1.5em;
     }
     .dateinfo .yearinfo h1{
-        font-size: 2.5em;
+        font-size: 2em;
     } 
     .dateinfo .timeinfo h1{
-        font-size: 1em;
+        font-size: .8em;
+    } 
+    .dateinfo .timeinfo h3{
+        font-size: 1.5em;
+    } 
+    .dateinfo .addressinfo h1{
+        font-size: .8em;
     } 
     .dateinfo .addressinfo h3{
-        font-size: 1em;
+        font-size: .8em;
     }  
     .one h5{
         font-size: .8em;
