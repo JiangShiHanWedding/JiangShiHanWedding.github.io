@@ -167,7 +167,8 @@ $(document).ready(function(){
                     divstr+="<span>"+blessing+"</span></div>";
                 }
                 else{ 
-                    divstr+="<i class=\"far fa-user-circle\"></i><span>"+uname+ " - "+blessing+"</span></div>";
+                    //divstr+="<i class=\"far fa-user-circle\"></i><span>"+uname+ " - "+blessing+"</span></div>";
+                     divstr+="<span>"+uname+ " - "+blessing+"</span></div>";
                 }
         
                //添加元素
