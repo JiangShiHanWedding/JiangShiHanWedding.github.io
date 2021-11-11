@@ -144,7 +144,7 @@
 }
 .onegif{
     position: fixed;
-    bottom:3%;
+    bottom:5%;
     left:30%;
 }
 @media screen and (max-device-width: 320px){
