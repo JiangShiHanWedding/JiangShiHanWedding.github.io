@@ -17,7 +17,7 @@ $(document).ready(function(){
 
     var nouseico = $(".downiconouse").eq(4);
 
-    if($(window).height()<670 && $(window).width()>670){
+    if($(window).height()<670&& $(window).width()>600){
         fivediv.css("height","60%");
     }
 
