@@ -1,5 +1,6 @@
 @import url(reset.css);
 @import url(font.css);
+@import url(page/background/style.css);
 @import url(page/background/background.css);
 @import url(page/01-index/one.css);
 @import url(page/02-invite/two.css);
