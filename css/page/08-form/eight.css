@@ -165,6 +165,12 @@
     .eight h4 {
         font-size: 1.3em;
     }
+    .eight img {
+        /* top: 16%;
+        transform: scale(.5);
+        left: 5%; */
+        display: none;
+    }
 }
 @media screen and (max-device-width:1024px) and (min-device-width:1024px) {
     .eight h2 {
