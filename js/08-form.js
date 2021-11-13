@@ -148,7 +148,7 @@ $(document).ready(function(){
             // 异步上传json数据
             $.ajax({
                 type:"post",
-                url:"http://localhost:9990/insert",
+                url:"http://47.96.43.213:9990/insert",
                 dateType:"json",
                 data: content,
                 //消息请求类型
