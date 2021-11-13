@@ -103,7 +103,7 @@ $(document).ready(function(){
         //后台请求弹幕
         $.ajax({
             type:"post",
-            url:"http://47.96.43.213:9990/getjson",
+            url:"https://www.slikeglue.com:9990/wedding/getjson",
             data: "",
             async:false,
             success:function(meg){
