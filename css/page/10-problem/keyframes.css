@@ -1,0 +1,134 @@
+.tenh1An{
+    animation: tenh1key .5s linear ;
+
+    /* Safari */
+    -webkit-animation: tenh1key .5s linear ;
+    /* Firefox */
+    -moz-animation: tenh1key .5s linear ;
+     /* IE 9 */
+    -ms-zoom-animation: tenh1key .5s linear ;
+    /* Opera */
+    -o-animation: tenh1key .5s linear ;
+}
+@keyframes tenh1key {
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@-webkit-keyframes tenh1key {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+    }
+}
+
+.tenspanAn{
+    animation: tenspankey .5s linear;
+
+    /* Safari */
+    -webkit-animation: tenspankey .5s linear;
+    /* Firefox */
+    -moz-animation: tenspankey .5s linear;
+     /* IE 9 */
+    -ms-zoom-animation: tenspankey .5s linear;
+    /* Opera */
+    -o-animation: tenspankey .5s linear;
+}
+
+@keyframes tenspankey {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@-webkit-keyframes tenspankey {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+    }
+}
+
+.tentextAn{
+    animation: tentextkey .5s linear;
+
+    /* Safari */
+    -webkit-animation: tentextkey .5s linear;
+    /* Firefox */
+    -moz-animation: tentextkey .5s linear;
+     /* IE 9 */
+    -ms-zoom-animation: tentextkey .5s linear;
+    /* Opera */
+    -o-animation: tentextkey .5s linear;
+}
+
+@keyframes tentextkey {
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes tentextkey {
+    0%{
+        opacity: 0;
+        -webkit-transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+}
+
+
+.tenaAn{
+    animation: tenakey.5s linear;
+
+     /* Safari */
+     -webkit-animation: tenakey .5s linear;
+     /* Firefox */
+     -moz-animation: tenakey .5s linear;
+      /* IE 9 */
+     -ms-zoom-animation: tenakey .5s linear;
+     /* Opera */
+     -o-animation: tenakey .5s linear;
+}
+@keyframes tenakey {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes tenakey {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

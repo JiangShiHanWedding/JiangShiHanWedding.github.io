@@ -1,0 +1,335 @@
+
+/* <h1 id="wordnew">新</h1>
+   <h1 id="wordlang">郎</h1> 
+*/
+.threeh1new{
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+
+    animation: h1newkey .5s ease-in;
+
+     /* Safari */
+     -webkit-animation: h1newkey .5s ease-in;
+     /* Firefox */
+     -moz-animation: h1newkey .5s ease-in;
+      /* IE 9 */
+     -ms-zoom-animation: h1newkey .5s ease-in;
+     /* Opera */
+     -o-animation: h1newkey .5s ease-in;
+}
+@keyframes h1newkey {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@-webkit-keyframes h1newkey {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+
+.threeh1lang{
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+
+    animation: h1langkey .5s ease-in;
+     /* Safari */
+     -webkit-animation: h1langkey .5s ease-in;
+     /* Firefox */
+     -moz-animation: h1langkey .5s ease-in;
+      /* IE 9 */
+     -ms-zoom-animation: h1langkey .5s ease-in;
+     /* Opera */
+     -o-animation: h1langkey .5s ease-in;
+}
+@keyframes h1langkey {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0); 
+    }
+}
+@-webkit-keyframes h1langkey {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0); 
+    }
+}
+
+.threegroomWAn{
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+
+    animation: threeh2key .5s linear;
+    /* Safari */
+    -webkit-animation: threeh2key .5s linear;
+    /* Firefox */
+    -moz-animation: threeh2key .5s linear;
+     /* IE 9 */
+    -ms-zoom-animation: threeh2key .5s linear;
+    /* Opera */
+    -o-animation: threeh2key .5s linear;
+}
+/* <h2>groom</h2> */
+@keyframes threeh2key {
+    0%{
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@-webkit-keyframes threeh2key {
+    0%{
+      opacity: 0;
+      -webkit-transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+
+.threegroominf{
+    animation: infgroomkey 4s linear infinite;
+
+    /* Safari */
+    -webkit-animation: infgroomkey 4s linear infinite;
+    /* Firefox */
+    -moz-animation: infgroomkey 4s linear infinite;
+     /* IE 9 */
+    -ms-zoom-animation: infgroomkey 4s linear infinite;
+    /* Opera */
+    -o-animation: infgroomkey 4s linear infinite;
+}
+@keyframes infgroomkey {
+    10%,75%{
+        transform: scale(1); 
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@-webkit-keyframes infgroomkey {
+    10%,75%{
+        -webkit-transform: scale(1); 
+    }
+    100%{
+        -webkit-transform: scale(1);
+    }
+}
+
+.threerobotnew{
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+
+    animation: threeh3key .5s linear;
+    /* Safari */
+    -webkit-animation: threeh3key .5s linear;
+    /* Firefox */
+    -moz-animation: threeh3key .5s linear;
+     /* IE 9 */
+    -ms-zoom-animation: threeh3key .5s linear;
+    /* Opera */
+    -o-animation: threeh3key .5s linear;
+    
+}
+/* <h3>新郎</h3> */
+@keyframes threeh3key {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@-webkit-keyframes threeh3key {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+
+.threeh4an{
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+
+    animation: threeh4key .5s linear;
+
+    /* Safari */
+    -webkit-animation: threeh4key .5s linear;
+    /* Firefox */
+    -moz-animation: threeh4key .5s linear;
+     /* IE 9 */
+    -ms-zoom-animation: threeh4key .5s linear;
+    /* Opera */
+    -o-animation: threeh4key .5s linear;
+}
+@keyframes threeh4key {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@-webkit-keyframes threeh4key {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes threeimg1key {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@-webkit-keyframes threeimg1key {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+.threeimg1{
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+
+    animation: threeimg1key .5s linear;
+    /* Safari */
+    -webkit-animation: threeimg1key .5s linear;
+    /* Firefox */
+    -moz-animation: threeimg1key .5s linear;
+     /* IE 9 */
+    -ms-zoom-animation: threeimg1key .5s linear;
+    /* Opera */
+    -o-animation: threeimg1key .5s linear;
+}
+
+.threeimg2{
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+
+    animation: threeimg2key .5s linear ;
+    /* Safari */
+    -webkit-animation:threeimg2key .5s linear ;
+    /* Firefox */
+    -moz-animation: threeimg2key .5s linear ;
+     /* IE 9 */
+    -ms-zoom-animation: threeimg2key .5s linear ;
+    /* Opera */
+    -o-animation: threeimg2key .5s linear ;
+}
+/* <div class="groompic">
+        <img src = "css/page/03three/images/pic.jpg" id="groompic1">
+        <img src = "css/page/03three/images/pic.jpg" id="groompic2">
+    </div>
+*/
+@keyframes threeimg2key {
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@-webkit-keyframes threeimg2key {
+    0%{
+        opacity: 0;
+        -webkit-transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+}
+
+
+.threeuserpic{
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+
+    animation: threeuserkey 0.5s linear;
+    /* Safari */
+    -webkit-animation:threeuserkey 0.5s linear;
+    /* Firefox */
+    -moz-animation:threeuserkey 0.5s linear;
+     /* IE 9 */
+    -ms-zoom-animation: threeuserkey 0.5s linear;
+    /* Opera */
+    -o-animation: threeuserkey 0.5s linear;
+}
+/* <div class="groompeople">
+        <img src="css/page/03three/images/groom.jpg">
+    </div> 
+*/
+@keyframes threeuserkey {
+    0%{
+        opacity: 0;
+        transform: translateX(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@-webkit-keyframes threeuserkey {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(10px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+    }
+}

@@ -1,0 +1,156 @@
+@charset "UTF-8";
+@import url(keyframes.css);
+
+.five h1{
+    font-family: mading;
+    font-size: 4em;
+    margin: 3% 0%;
+}
+.five h2{
+    font-family: mading;
+    font-size: 1.5em;
+    margin: 3% 0;
+}
+
+#fivediv{
+    width: 70%;
+    height: 60%;
+    overflow: hidden;
+    /* 居中 */
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid rgba(233, 191, 120);
+    box-shadow: 0px 0px 10px #1f1011;
+    border-radius: 5%;
+}
+
+#fivediv ul{
+    list-style: none;
+    position:absolute;
+    /* top:40%;
+    transform: translateY(-40%);
+    -webkit-transform: translateY(-40%); */
+    /* margin-left: 43%; */
+    
+}
+#fivediv ul li{
+    position: absolute;
+    /* width: 100%;
+    top:50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);  */
+    /* text-align: center;*/
+}
+#fiveimg1{
+    background: url(images/1.JPG) center center;
+    background-size: cover;
+}
+#fiveimg2{
+    background: url(images/2.JPG) center center;
+    background-size: cover;
+}
+#fiveimg3{
+    background: url(images/3.JPG) center center;
+    background-size: cover;
+}
+/* #fivediv ul li img{
+    width: 100%;
+} */
+#fivediv-nav{
+    width: 100%;
+    bottom: 5%;
+    text-align: center;
+    position: absolute;
+}
+#fivediv-nav span{
+    display: inline-block;
+    margin: 0 7px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 0;
+    background: rgb(255, 255, 255,.3);
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    /* 鼠标移动到远点上方时呈现为手型 */
+    cursor: pointer;
+    /* 圆点不以文本形式被选中 */
+    user-select: none;
+    -webkit-user-select: none;
+}
+#fivediv-nav span.active{
+    background: #fff;
+}
+/* #fivediv ul li img{
+    width: 100%;
+
+} */
+
+.fiveflybirde{
+    position: fixed;
+
+    left: 20%;
+    top: 7%;
+
+    /* border: 1px solid#fff;
+    border-radius: 50%;
+    background: #fff; */
+}
+@media screen and (max-device-width:539px) {
+    .five h1{
+        font-size: 2em;
+        margin: 5% 0;
+    }
+    .five h2{
+        font-size: 1em;
+        margin: 5% 0;
+    }
+    #fivediv{
+        width: 75%;
+        height: 75%;
+    }
+    .fiveflybirde {
+        left: -3%;
+        top: 2%;
+        transform: scale(.3);
+    }
+}
+@media  screen and (max-device-width:540px) and (min-device-width:540px){
+    .five h1{
+        font-size: 1.5em;
+    }
+    .five h2{
+        font-size: .8em;
+        
+    }
+    #fivediv{
+        width: 75%;
+        height: 75%;
+    }
+    .fiveflybirde {
+        left: -3%;
+        top: 2%;
+        transform: scale(.3);
+    }
+    
+}
+@media only screen and (max-device-width:768px) and (min-device-width:768px){
+    #fivediv{
+        width: 80%;
+        height: 75%;
+    }
+    .fiveflybirde {
+        left: 10%;
+        top: 6%;
+    }
+}
+@media only screen and (max-device-width:1024px) and (min-device-width:1024px){
+    #fivediv{
+        width: 80%;
+        height: 72%;
+    }
+    .fiveflybirde {
+        left: 15%;
+        top: 5%;
+    }
+}
