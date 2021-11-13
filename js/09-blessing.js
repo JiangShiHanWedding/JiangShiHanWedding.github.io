@@ -103,7 +103,7 @@ $(document).ready(function(){
         //后台请求弹幕
         $.ajax({
             type:"post",
-            url:"https://www/getjson",
+            url:"http://47.96.43.213:9990/getjson",
             data: "",
             async:false,
             success:function(meg){
