@@ -143,14 +143,28 @@ $(document).ready(function(){
 
     //腾讯地图
     //定义地图中心点坐标
-    // var center = new TMap.LatLng(39.984120, 116.307484)
-    // //定义map变量，调用 TMap.Map() 构造函数创建地图
-    // var map = new TMap.Map(document.getElementById('container'), {
-    //     center: center,//设置地图中心点坐标
-    //     zoom: 17.2,   //设置地图缩放级别
-    //     pitch: 43.5,  //设置俯仰角
-    //     rotation: 45    //设置地图旋转角度
-    // });
+    var map = new TMap.LatLng(118.659566,28.765681)
+    //定义map变量，调用 TMap.Map() 构造函数创建地图
+    // MultiMarker文档地址：https://lbs.qq.com/webApi/javascriptGL/glDoc/glDocMarker
+      var marker = new TMap.MultiMarker({
+        map: map,
+        styles: {
+          // 点标记样式
+          marker: new TMap.MarkerStyle({
+            width: 20, // 样式宽
+            height: 30, // 样式高
+            anchor: { x: 10, y: 30 }, // 描点位置
+            src: 'https://mapapi.qq.com/web/lbs/javascriptGL/demo/img/markerDefault.png', // 标记路径
+          }),
+        },
+        geometries: [
+          // 点标记数据数组
+          {
+            // 标记位置(经度，纬度，高度)
+            position: new TMap.LatLng(118.659566,28.765681, 134),
+          },
+        ],
+      });
 
         //百度地图
     // var map = new BMap.Map("sevenmap"); 
