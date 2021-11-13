@@ -104,7 +104,7 @@ $(document).ready(function(){
             //后台请求
             $.ajax({
                 type:"post",
-                url:"http://localhost:9990/problem",
+                url:"https://slikeglue.com:9990/wedding/problem",
                 dateType:"json",
                 data: content,
                 //消息请求类型
