@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: spacefont;
+    src: url(font/SpaceAttack.ttf);
+}
+
+@font-face {
+    font-family: DryBrush;
+    src: url(font/BotanicaScript-DryBrush.ttf);
+}
+
+@font-face {
+    font-family: hole;
+    src: url(font/Hole-Hearted.ttf);
+}
+
+@font-face {
+    font-family: thingold;
+    src: url(font/thingold.ttf);
+}
+@font-face {
+    font-family: water;
+    src: url(font/大褶xi瘦金书3.ttf);
+}
+
+@font-face {
+    font-family: rain;
+    src: url(font/rain.ttf);
+}
+@font-face {
+    font-family: rice;
+    src: url(font/rice.ttf);
+}
+@font-face {
+    font-family: robot;
+    src: url(font/robot.ttf);
+}
+
+@font-face {
+    font-family: mading;
+    src: url(font/mading.ttf);
+}
