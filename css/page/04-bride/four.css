@@ -1,0 +1,393 @@
+@charset "UTF-8";
+@import url(keyframes.css);
+
+.four .brideword{
+    width:100%;
+    height: 20%;
+    overflow: hidden;
+}
+.brideword h1{
+    width: 10%;
+    float: left;
+
+    font-family: rice;
+
+    font-size: 4em;
+    margin-top: 3%;
+
+    border: 2px solid rgba(233,191,120,1);
+    border-radius: 50%;
+    
+}
+
+#bwordnew{
+    margin-left: 35%;
+}
+#wordbride{
+    margin-left: 9%;
+}
+.four .bridepic{
+    width: 100%;
+    height: 55%;
+    overflow: hidden;
+    margin-top: 1%;
+
+    /* border-top: 10px solid rgba(233, 191, 120); */
+    /* border-bottom: 10px solid rgba(233, 191, 120); */
+    /* margin: 0 4%; */
+}
+.bridepic img{
+    width: 30%;
+    float: left;
+
+    /* border: 1px solid rgba(233, 191, 120); */
+    /* box-shadow: 0px 0px 10px #1f1011; */
+    /* border-radius: 20%; */
+}
+/* #bridepic2{
+    margin-top: 3%;
+    margin-left: 6%;
+} */
+#bridediv{
+    width: 55%;
+    height: 90%;
+    float: left;
+    /* border: 2px solid #924945; */
+    /* box-shadow: 10px 10px 10px #e9ceb4; */
+    text-shadow: 0px 0px 10px rgba(233, 191, 120);
+    border-radius: 30%;
+
+    font-family: mading;
+    position: relative;
+    /* background: #864440; */
+    color:#e6bcac;
+}
+#bridediv h1{
+    font-size: 3em;
+    position: absolute;
+    top: 42%;
+    left: 20%;
+}
+#bridediv h2{
+    font-size: 2em;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+#bridediv h3{
+    font-size: 2em;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+}
+#bridediv h4{
+    font-size: 2em;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-family: mading;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+#bridediv h5{
+    font-size: 2em;
+    position: absolute;
+    top: 70%;
+    left: 55%;
+}
+#bridepic1{
+    margin-left: 6%;
+}
+
+.brideec{
+    width: 100%;
+    height: 6%;
+    overflow: hidden;
+}
+/* <h2>bride</h2> */
+.brideec h2{
+    font-family: robot;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    /* float: left;
+    margin: 0% 5% 3% 15%; */
+}
+
+/* <h3>新娘</h3> */
+.brideec h3{
+    font-family: robot;
+    font-size: 3em;
+    float: left;
+    margin: 0% 0% 0% 3%;
+}
+
+/* <h4>誓词</h4> */
+.four h4{
+    font-family: thingold;
+    font-size: 1.5em;
+    /* text-align: left; */
+    margin: 1% 32% 0% 32%;
+
+    padding: 1% 1%;
+
+    border-top: 2px solid rgba(233, 191, 120);
+    border-bottom: 2px solid rgba(233, 191, 120);
+}
+
+.bridepeople{
+    position: fixed;
+    right: 20%;
+    top: 3%;
+
+    /* background: rgba(113, 32, 17);
+    border: 1px solid rgba(113, 32, 17);
+    border-radius: 50%;
+
+    transform: scale(2); */
+}
+@media screen and (max-device-width: 320px){
+    .brideword h1{
+        width: 20%;
+        font-size: 3em;
+    }
+    #bwordnew {
+        margin-left: 27%;
+    }
+    .brideec h2{
+        font-size: 1em;
+    }
+    .four .brideword{
+        height: 15%;
+    }
+    .four h4{
+        font-size:1em;
+        margin: 1% 23% 0% 23%;
+    }
+
+    .four .bridepic{
+        height: 60%;
+        margin-left: 6%;
+    }
+
+    .bridepic img{
+        width: 80%;
+    }
+    #bridepic1{
+        margin-top: 5%;
+    }
+
+    #bridediv{
+        width: 80%;
+        height: 50%;
+        margin-left: 5%;
+    }
+    #bridediv h1{
+        font-size: 1.3em;
+        left:15%;
+    }
+    #bridediv h2{
+        font-size: .8em;
+    }
+    #bridediv h3{
+        font-size: .8em;
+    }
+    #bridediv h4{
+        font-size: .8em;
+    }
+    #bridediv h5{
+        font-size: .8em;
+    }
+}
+
+@media  screen and (max-device-width:539px)  and (min-device-width:321px) {
+    .brideword h1{
+        width: 20%;
+        font-size: 3em;
+    }
+    #bwordnew {
+        margin-left: 27%;
+    }
+    .brideec h2{
+        font-size: 1.5em;
+    }
+    .four .brideword{
+        height: 13%;
+    }
+    .four h4{
+        font-size:1em;
+        margin: 1% 23% 0% 23%;
+    }
+
+    .four .bridepic{
+        height: 65%;
+        margin-left: 6%;
+    }
+
+    .bridepic img{
+        width: 80%;
+    }
+    #bridepic1{
+        margin-top: 5%;
+    }
+    /* #groompic2{
+        margin-top: 10%;
+    } */
+    #bridediv{
+        width: 80%;
+        height: 50%;
+        margin-left: 5%;
+    }
+    #bridediv h1{
+        font-size: 1.5em;
+    }
+    #bridediv h2{
+        font-size: 1em;
+    }
+    #bridediv h3{
+        font-size: 1em;
+    }
+    #bridediv h4{
+        font-size: 1em;
+    }
+    #bridediv h5{
+        font-size: 1em;
+    }
+}
+@media screen and (max-device-width:540px) and (min-device-width:540px){
+    .brideword h1{
+        width: 20%;
+        font-size:3em;
+    }
+    #bwordnew {
+        margin-left: 27%;
+    }
+    .brideec h2{
+        font-size: 1.4em;
+    }
+    .four .brideword{
+        height: 13%;
+    }
+    .four h4{
+        font-size:1em;
+        margin: 0% 23% 0% 23%;
+    }
+
+    .four .bridepic{
+        height: 73%;
+        margin-left: 6%;
+    }
+
+    .bridepic img{
+        width: 80%;
+    }
+    #bridepic1{
+        margin-top: 0%;
+    }
+    #bridepic2{
+        margin-top: 0%;
+    }
+    .brideec{
+        height: 4%;
+    }
+}
+
+/* 横屏 */
+@media screen and (min-device-width:600px) and (max-device-width:1024px) and (min-device-height:650px){
+    #bridepic2 {
+        margin-top: 0%;
+    }
+    
+    .four .bridepic {
+        height: 45%;
+    }
+}
+
+/* iphone 5 */
+@media screen and (max-device-width:500px) and (max-device-height:600px){
+    #bridepic2 {
+        display: none;
+    }
+}
+/* 手机横屏 */
+@media screen and (min-device-width:560px) and (max-device-width:900px) and (max-device-height:500px){
+    
+    .four .brideword{
+        height: 20%;
+        margin-top: 0;
+    }
+    .brideword h1{
+        font-size: 2em;
+    }
+    #bridepic2 {
+        margin-top: 0;
+    }
+    #bwordnew {
+        margin-left: 35%;
+    }
+    .brideec h2{
+        font-size: .8em;
+    }
+    .four h4{
+        font-size: .8em;
+        margin: 0% 35%;
+    }
+    .four .bridepic{
+        height: 45%;
+    }
+    #bridepic1 {
+        margin-left: 8%;
+    }
+    #bridediv h1{
+        font-size: 1.5em;
+        /* left:15%; */
+    }
+    #bridediv h2{
+        font-size: 1em;
+    }
+    #bridediv h3{
+        font-size: 1em;
+    }
+    #bridediv h4{
+        font-size: 1em;
+    }
+    #bridediv h5{
+        font-size: 1em;
+    }
+}
+@media screen and (min-device-width:768px)and (max-device-width:770px)  and (min-device-height:900px){
+    #bridepic2 {
+        margin-top: 25%;
+    }
+    #wordbride {
+        margin-left: 12%;
+    }
+    #bwordnew {
+        margin-left: 25%;
+    }
+    .brideword h1 {
+        width: 20%;
+    }
+    #bridediv h1{
+        font-size: 2em;
+        /* left:15%; */
+    }
+    #bridediv h2{
+        font-size: 1.5em;
+    }
+    #bridediv h3{
+        font-size: 1.5em;
+    }
+    #bridediv h4{
+        font-size: 1.5em;
+    }
+    #bridediv h5{
+        font-size: 1.5em;
+    }
+    
+}
+@media screen and (min-device-width:1024px) and (min-device-height:1000px){
+    #bridepic2 {
+        margin-top: 40%;
+    }
+}

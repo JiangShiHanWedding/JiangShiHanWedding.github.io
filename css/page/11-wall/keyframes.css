@@ -1,0 +1,67 @@
+.elevenh1An{
+    animation: elevenh1key .5s linear ;
+
+    /* Safari */
+    -webkit-animation: elevenh1key .5s linear ;
+    /* Firefox */
+    -moz-animation: elevenh1key .5s linear ;
+     /* IE 9 */
+    -ms-zoom-animation: elevenh1key .5s linear ;
+    /* Opera */
+    -o-animation: elevenh1key .5s linear ;
+}
+@keyframes elevenh1key {
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@-webkit-keyframes elevenh1key {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+    }
+}
+
+.elevenh2An{
+    animation: elevenh2key .5s linear ;
+
+    /* Safari */
+    -webkit-animation: elevenh2key .5s linear ;
+    /* Firefox */
+    -moz-animation: elevenh2key .5s linear ;
+     /* IE 9 */
+    -ms-zoom-animation: elevenh2key .5s linear ;
+    /* Opera */
+    -o-animation: elevenh2key .5s linear ;
+}
+@keyframes elevenh2key {
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@-webkit-keyframes elevenh2key {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+    }
+}

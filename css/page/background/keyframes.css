@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+/* 主内容 */
+@keyframes contentkey {
+    from{
+        opacity: 0;
+        /* 水平方向和垂直方向的缩放值，0代表缩放到最小，1代表缩放到原始大小 */
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+        
+    }
+}
+@-webkit-keyframes contentkey {
+    from{
+        opacity: 0;
+        -webkit-transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: scale(1);
+        
+    }
+}
+
+/* 背景图片1 */
+@keyframes img1key {
+    from{
+        opacity: 0;
+        transform: scale(0);
+        margin-top: -50%;
+    }
+    to{
+        opacity: 1;
+        transform: scale(1.5);
+        margin-top: -50%;
+    }
+}
+
+/* 兼容模式 */
+@-webkit-keyframes img1key {
+    from{
+        opacity: 0;
+        -webkit-transform: scale(0);
+        margin-top: -50%;
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: scale(1.5);
+        margin-top: -50%;
+    }
+}
+
+/* 图片旋转 */
+@keyframes imgrotate {
+    from{
+        transform: rotate(0deg);
+        margin-top: -50%;
+    }
+    to{
+        transform: rotate(360deg) ;
+        margin-top: -50%;
+    }
+}
+@-webkit-keyframes imgrotate {
+    from{
+        -webkit-transform: rotate(0deg);
+        margin-top: -50%;
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+        margin-top: -50%;
+    }
+}
+
+/* 背景图2 */
+@keyframes img2key {
+    from{
+        opacity: 0;
+        transform: scale(0);
+        margin-top: -50%;
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+        margin-top: -50%;
+    }
+}
+@-webkit-keyframes img2key {
+    from{
+        opacity: 0;
+        -webkit-transform: scale(0);
+        margin-top: -50%;
+    }
+    to{
+        opacity: 1;
+        -webkit-transform: scale(1);
+        margin-top: -50%;
+    }
+}
+
+@keyframes adownkey {
+    0%,75%{
+        opacity: 0;
+        bottom: 20px;
+    }
+    100%{
+        opacity: 1;
+        bottom: 10px;
+    }
+}
+
+@keyframes aupkey {
+    0%,75%{
+        opacity: 0;
+        top: 20px;
+    }
+    100%{
+        opacity: 1;
+        top: 0px;
+    }
+}
+
+.navAn{
+    transform-origin: left center;
+    animation: navkey 1s linear;
+}
+/* 标签导航 */
+@keyframes navkey {
+    0%{
+       opacity: 0;
+       transform: rotateY(-90deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+    }
+}
+@-webkit-keyframes navkey {
+    0%{
+       opacity: 0;
+       -webkit-transform: rotateY(-90deg);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: rotateY(0deg);
+    }
+}

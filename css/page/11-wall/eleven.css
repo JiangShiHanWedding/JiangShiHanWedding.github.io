@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@import url(keyframes.css);
+
+.eleven{
+    font-family: mading;
+}
+.eleven h1{
+    font-size: 4em;
+    margin: 1% 0;    
+}
+.eleven h2{
+    font-size: 2em;
+    margin: 1% 0;
+    /* text-align: right; */
+}
+.wall{
+    position: relative;
+    height: 80%;
+    background: url(images/back.png) no-repeat center center;
+    background-size: cover;
+
+}
+.wall .walldiv{
+    border: 1px solid rgba(233, 191, 120);
+    /* border-radius: 3%; */
+
+    position: absolute;
+    top:0;
+    right: 8%;
+
+    width: 80%;
+    /* overflow: hidden; */
+    /* height: 25%; */
+
+    /* background-color: #8e594f; */
+    background: url(images/divback.png) no-repeat 100% 0;
+    background-size: cover;
+
+    opacity: 0.7;
+    
+    color: #fff;
+
+    box-shadow: 0px 0px 10px #1f1011;
+
+    text-align: left;
+
+    font-size: 1.3em;
+
+    padding-left: 3%;
+    padding-right: 3%;
+
+    word-wrap: break-word;
+}
+.wall .walldiv img{
+    position: absolute;
+    right: -7%;
+    top: -35%;
+    transform: scale(0.7) rotate(45deg);
+    -webkit-transform: scale(0.7) rotate(45deg);
+}
+.wall .walldiv h3{
+    margin: 1% 0;
+}
+.wall .walldiv h5{
+    text-align: right;
+    margin-bottom: 1%;
+}
+@media screen and (max-device-width:320px){
+    .eleven h1{
+        font-size: 2em;
+        margin: 0;
+    }
+    .eleven h2{
+        font-size: .6em;
+        margin: 2% 0;
+    }
+    .wall .walldiv{
+        font-size: .6em;
+    }
+    .wall .walldiv img{
+        left: -32%;
+        top: -80%;
+        transform: scale(0.3) rotate(-45deg);
+        -webkit-transform: scale(0.3) rotate(-45deg);
+    }
+}
+@media screen and (max-device-width:541px)and (min-device-width:321px){
+    .eleven h1{
+        font-size: 2em;
+        margin-top: 4%;
+    }
+    .eleven h2{
+        font-size: 1em;
+        margin: 2% 0;
+    }
+    .wall .walldiv{
+        font-size: 1em;
+    }
+    .wall .walldiv img{
+        left: -26%;
+        top: -55%;
+        transform: scale(0.3) rotate(-45deg);
+        -webkit-transform: scale(0.3) rotate(-45deg);
+    }
+}
+/* 手机竖屏 */
+@media screen and (min-device-width:560px) and (min-device-width:900px) and (max-device-height:450px){
+    .eleven h1{
+        font-size: 2em;
+        margin-top: 0%;
+    }
+    .eleven h2{
+        font-size: 1em;
+        margin: 2% 0;
+    }
+    .wall .walldiv{
+        font-size: 1em;
+    }
+}
